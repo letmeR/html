@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>1972</title>
+<style>
+#a{
+	color: red;
+}
+</style>
+</head>
+<body>
+	<!-标记元素-->
+	<h1>html</h1>
+	<p id="a">段<br>落</p>
+	<br>
+	<hr>
+	<b>加粗</b>
+	<br>
+	<i>倾斜</i>
+	<br>
+	<strong>Important text</strong>
+	<br>
+	<em>斜体</em>
+	<br>
+	<small>Smaller text</small>
+	<br>
+	<del>(delete text)</del>
+	<br>
+	<ins>插入文本</ins>
+	<br>
+	<code><h1>特定代码</h1></code>
+	<br>
+	<pre><p>一段代码</p></pre>
+	<br>
+	<q>引用他人的话</q>
+	<br>
+	<img src="img/car.png" alt="加载失败时替换的文字">
+	<br>
+	<!-文档外连接-->
+	<a href="https://github.com/letmeR/html"><h1>letmeRGithub</h1></a>
+	<!-文档内连接-->
+	<a href="#a">段落颜色样式</a>
+	<br>
+	<!-无序列表-->
+	<ul>
+	<li>item</li>
+	<li>i</li>
+	</ul>
+	<!-有序列表-->
+	<ol>
+	<li>i</li>
+	<li>i</li>
+	</ol>
+	<br>
+	<!-表格-->
+	<table border="2px">
+	<caption>first</caption>
+	<thead>
+		<tr>
+			<th>table head</th>
+			<th>table head</th>
+			<th>table head</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1999.8-2000.7</td>
+			<td>xxxxxx</td>
+			<td>职称</td>
+		</tr>
+	<tr><td>table data</td></tr>
+	<tr><td>table data</td></tr>
+	<tr><td>table data</td></tr>
+	</tbody>
+	</table>
+	<br>
+	<!-容器元素-->
+	<div>div块级容器</div>
+	<span>span行内容器</span>
+	<form action="" method="post" enctype="multipart/form-data">
+	<p>姓名：<input type="text" /></p>
+	<p>简介：<textarea></textarea></p>
+	<p>简历附件：<input type="file"/></p>
+	<p><input type="submit" value="报名提交" /></p>
+	</form>
+	<br>
+	<!-文档对象模型DOM-->
+	<!-语义化分段元素-->
+	<body><header></header><footer></footer></body>
+	<section></section>
+	<article></article>
+	<aside></aside>
+	<nav></nav>
+	<br>
+	<h1>HTML最佳实践</h1>
+	<ul>
+	<p>根据应用场景和需求，建立合适的html标记结构，选择合适的标记元素</p>
+	<p>不要忘记文档类型声明</p>
+	<p>不要忘记字符编码声明</p>
+	<p>不要使用h5不再支持的tag</p>
+	<p>不要使用h5不再支持的tag属性</p>
+	</ul>
+	<footer>
+	<a href="#">回到顶部</a>
+	</footer>
+
+</body>
+</html>
